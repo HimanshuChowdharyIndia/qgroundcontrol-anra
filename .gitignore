@@ -71,8 +71,8 @@ ui_*
 *.prl
 
 # android
-android/local.properties
-android/gradle.properties
+#android/local.properties
+#android/gradle.properties
 
 # doxygen
 src/html/

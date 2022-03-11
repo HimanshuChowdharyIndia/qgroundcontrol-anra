@@ -25,6 +25,7 @@ OTHER_FILES += \
 DISTFILES += \
     $$PWD/android/gradle/wrapper/gradle-wrapper.jar \
     $$PWD/android/gradlew \
+    $$PWD/android/local.properties \
     $$PWD/android/res/values/libs.xml \
     $$PWD/android/build.gradle \
     $$PWD/android/gradle/wrapper/gradle-wrapper.properties \
