@@ -4174,6 +4174,8 @@ void Vehicle::_initializeCsv()
 
 void Vehicle::_writeCsvLine()
 {
+    QString id_ = QString("%1").arg(_id);
+    qDebug() << "writing csv " << id_;
     // Only save the logs after the the vehicle gets armed, unless "Save logs even if vehicle was not armed" is checked
     if(!_csvLogFile.isOpen() &&
            (_armed || _toolbox->settingsManager()->appSettings()->telemetrySaveNotArmed()->rawValue().toBool())){
